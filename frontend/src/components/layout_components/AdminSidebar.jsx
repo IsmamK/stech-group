@@ -150,28 +150,9 @@ const AdminSidebar = ({ isOpen, toggleSidebar }) => {
         <div className=''>
         <h1 className='font-extrabold text-3xl text-gray-600 pb-4 italic'>Functionality</h1>
         <div className='flex flex-col gap-4 border p-4 border-gray-200'>
-         <li>
-          <NavLink
-            to="contact-messages" // Update this to your products route
-            className={({ isActive }) =>
-              `flex items-center rounded-lg font-bold p-2 ${isActive ? 'bg-blue-400 text-white' : 'hover:bg-blue-400 hover:text-white'}`
-            }
-          >
-            <FaBox className='mr-2' /> Contact Messages
-          </NavLink>
-        </li>   
 
-         <li>
-          <NavLink
-            to="job-applications" // Update this to your products route
-            className={({ isActive }) =>
-              `flex items-center rounded-lg font-bold p-2 ${isActive ? 'bg-blue-400 text-white' : 'hover:bg-blue-400 hover:text-white'}`
-            }
-          >
-            <FaBox className='mr-2' /> Job Applications
-          </NavLink>
-        </li>  
-        
+
+     
         <li>
           <NavLink
             to="image-upload" // Update this to your products route
