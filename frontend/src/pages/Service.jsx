@@ -28,6 +28,7 @@ function Service() {
 
       {pageData.sections && pageData.sections[0] && (
         <section className="ourservices">
+
           <div className="container">
             <div className="ourservices-content">
               <div className="row">
@@ -38,7 +39,7 @@ function Service() {
                         {pageData.sections[0].title}
                       </h1>
                       <div className="ribbon">
-                        <img src="../../public/images/ribbon-big.svg" alt="" />
+                        <img src="/images/ribbon-big.svg" alt="" />
                       </div>
                     </div>
 

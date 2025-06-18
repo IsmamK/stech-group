@@ -221,7 +221,7 @@ const ServicesComponent = () => {
                     {servicesData.title}
                   </h1>
                   <div className="ribbon">
-                    <img src="../../../public/images/hero-logo.png" alt="" />
+                    <img src="/images/hero-logo.png" alt="" />
                   </div>
                 </div>
                 <div className="ourservice-body">

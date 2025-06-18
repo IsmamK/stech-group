@@ -16,7 +16,7 @@ function MissionVission({ data,id }) {
                   <h1 className="missionvision-title">{data.title}</h1>
 
                   <div className="ribbon">
-                    <img src="../../../public/images/ribbon-big.svg" alt="" />
+                    <img src="/images/ribbon-big.svg" alt="" />
                   </div>
                 </div>
                 {/* MISSION-VISION HEADER END */}

@@ -48,10 +48,7 @@ function Hero() {
                   }}
                 >
                   <img
-                    src={
-                      heroData.logo_url ||
-                      "../../../public/images/hero-logo-2.png"
-                    }
+                    src={heroData.logo_url || "/images/hero-logo-2.png"}
                     alt="banner-logo"
                     style={{
                       width: "100%",

@@ -24,7 +24,7 @@ function OurConcerns({ data, brands }) {
                     className="ribbon"
                     style={{ left: isRTL ? "auto" : "0" }}
                   >
-                    <img src="../../../../../public/images/ribbon-sm.svg" alt="" />
+                    <img src="/images/ribbon-sm.svg" alt="" />
                   </div>
                 </div>
 

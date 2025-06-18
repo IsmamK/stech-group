@@ -186,7 +186,7 @@ function CompanyValues() {
                   <h1 className="companyvalues-title">{data.title}</h1>
 
                   <div className="ribbon">
-                    <img src="../../../public/images/hero-logo.png" alt="" />
+                    <img src="/images/hero-logo.png" alt="" />
                   </div>
                 </div>
                 <p className="companyvalue-text text">{data.text}</p>

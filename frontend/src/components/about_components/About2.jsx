@@ -27,7 +27,7 @@ function CorporateDirectors({ data,id }) {
                   <div className="corporatedirectors-header">
                     <h1 className="corporatedirectors-title">{data.title}</h1>
                     <div className="ribbon">
-                      <img src="../../../public/images/ribbon-big.svg" alt="" />
+                      <img src="/images/ribbon-big.svg" alt="" />
                     </div>
                   </div>
                   <div className="corporatedirectors-body">

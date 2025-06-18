@@ -147,7 +147,7 @@ function NewsEvents() {
                         <div className="events-header">
                           <h1 className="events-title">{section.title}</h1>
                           <div className="ribbon">
-                            <img src="../../public/images/ribbon-big.svg" alt="" />
+                            <img src="/images/ribbon-big.svg" alt="" />
                           </div>
                         </div>
                         <div className="events-body">
@@ -231,7 +231,7 @@ function NewsEvents() {
                         <div className="news-header">
                           <h1 className="news-title">{section.title}</h1>
                           <div className="ribbon">
-                            <img src="../../public/images/ribbon-big.svg" alt="" />
+                            <img src="/images/ribbon-big.svg" alt="" />
                           </div>
                         </div>
                         <div className="news-body">

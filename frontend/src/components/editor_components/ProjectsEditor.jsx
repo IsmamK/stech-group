@@ -1,18 +1,5 @@
 import React, { useState } from 'react';
 import Home from '../../pages/Home';
-import CarouselModal from './editor_modals/home_modals/CarouselModal';
-import HeroModal from './editor_modals/home_modals/HeroModal';
-import CardsModal from './editor_modals/home_modals/CardsModal';
-import ServicesModal from './editor_modals/home_modals/ServicesModal';
-import StatisticsModal from './editor_modals/home_modals/StatisticsModal';
-import WhyUsModal from './editor_modals/home_modals/WhyUsModal';
-import OurClientsModal from './editor_modals/home_modals/OurClientsModal';
-import LocationModal from './editor_modals/home_modals/LocationModal';
-import AssociatesModal from './editor_modals/home_modals/AssociatesModal';
-import IndustriesModal from './editor_modals/home_modals/IndustriesModal';
-import TimelineModal from './editor_modals/home_modals/TimelineModal';
-import AboutPreviewModal from './editor_modals/home_modals/AboutPreviewModal';
-import ContactModal from './editor_modals/home_modals/LocationModal';
 import ProjectsModal from './editor_modals/projects_modals.jsx/ProjectsModal';
 
 const ProjectsEditor = ({ getDivider, availableShapes }) => {

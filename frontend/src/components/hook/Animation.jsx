@@ -29,7 +29,7 @@ export const AnimationWrapper = ({ children, animationFiles = [] }) => {
         
         for (const file of animationFiles) {
           if (file) {
-            await import(`../../../public/js/animations/${file}`);
+            await import(`/js/animations/${file}`);
           }
         }
       } catch (error) {

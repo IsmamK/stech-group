@@ -85,7 +85,7 @@ const Content = () => {
                   dangerouslySetInnerHTML={{ __html: contentData.title }}
                 ></h1>
                 <div className="ribbon" style={{ left: 0 }}>
-                  <img src="../../../public/images/ribbon-big.svg" alt="" />
+                  <img src="/images/ribbon-big.svg" alt="" />
                 </div>
               </div>
               {/* STECH DIGITAL HEADER END */}

@@ -158,7 +158,7 @@ function OurClients() {
                 <div className="ourclients-header">
                   <h1 className="ourclients-title">{data.title}</h1>
                   <div className="ribbon">
-                    <img src="../../../public/images/ribbon-big.svg" alt="" />
+                    <img src="/images/ribbon-big.svg" alt="" />
                   </div>
                 </div>
                 {/* OUR-CONCERN HEADER END */}
