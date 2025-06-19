@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Spin, Alert } from 'antd';
-import ParallaxJS from '../../components/home_components/Parallax';
+import ParallaxJS from '../../components/home_components/parallaxjs';
 
 function BrandPage() {
   const { slug } = useParams();
