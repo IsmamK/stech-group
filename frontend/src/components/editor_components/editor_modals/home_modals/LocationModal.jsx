@@ -231,7 +231,6 @@ const ContactModal = ({ isOpen, onClose }) => {
                 }
                 rules={[{ 
                   required: true, 
-                  message: 'Please enter email',
                   type: 'email',
                   message: 'Please enter a valid email'
                 }]}

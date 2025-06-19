@@ -164,7 +164,6 @@ const Projects = () => {
           {centers.map((center, index) => (
             <motion.div
               key={index}
-              variants={itemVariants}
               whileHover="hover"
               variants={cardVariants}
               className="bg-white rounded-xl overflow-hidden shadow-lg"
