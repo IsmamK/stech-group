@@ -29,7 +29,11 @@ export const AnimationWrapper = ({ children, animationFiles = [] }) => {
         
         for (const file of animationFiles) {
           if (file) {
-            await import(`/js/animations/${file}`);
+            const script = document.createElement('script');
+script.src = `./js/animations/${file}.js`;
+script.type = 'module';
+document.body.appendChild(script);
+
           }
         }
       } catch (error) {

@@ -106,7 +106,7 @@ function BannerV2({ title, text, home, head_class }) {
                   {/* STECH DIGITAL HEADER START */}
                   <div className="stechaesthetics-header">
                     <div ref={sign} className="ribbon sign">
-                      <img src="../../../public/images/ribbon-big.svg" alt="" />
+                      <img src="/images/ribbon-big.svg" alt="" />
                     </div>
                   </div>
                   {/* STECH DIGITAL HEADER END */}
